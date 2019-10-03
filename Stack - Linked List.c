@@ -19,8 +19,11 @@ int main() {
 	char first;
 	
 	
+	printf("Input string:\n");
+	scanf("%s",string);
+	
 	for (i = 0; i < SIZE; i++) {
-		push(&A, word[i]); /* INSERTING THE CHARACTER IN LINK LIST*/
+		push(&A, string[i]); /* INSERTING THE CHARACTER IN LINK LIST*/
 	}
 	
 	
